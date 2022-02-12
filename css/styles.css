@@ -1,0 +1,195 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-colot: #212121;
+  --accent-color: #2196f3;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+  --body-color: #ffffff;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--primary-text-color);
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  width: 1600px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Хедер */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 0 215px;
+  align-items: center;
+  height: 80px;
+}
+
+.logo-header {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  width: 145px;
+}
+
+.logo-item {
+  color: var(--accent-color);
+}
+/* Навігація */
+
+.site-navigation {
+  display: flex;
+  flex-direction: row;
+  width: 295px;
+  justify-content: space-between;
+  margin-left: 95px;
+  padding: 0 0;
+}
+
+.site-navigation-link {
+  text-decoration: none;
+  color: var(--title-text-colot);
+}
+
+.site-navigation-link:hover,
+.site-navigation-link:focus {
+  color: var(--accent-color);
+}
+
+/* Контакти */
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 310px;
+  margin-left: 325px;
+  padding: 0 0;
+}
+.contacts-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+.main-studio {
+  margin: 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  color: var(--body-color);
+  background-color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 200px 0;
+  justify-content: center;
+  height: 200px;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--body-color);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* 
+.title-activity,
+.title-specifics {
+  
+} */
+
+.title-specifics {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--title-text-colot);
+  text-transform: uppercase;
+}
+
+.title-activity {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--title-text-colot);
+}
+
+.specifics,
+.activity {
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-member {
+  background-color: var(--body-color);
+  width: 270px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-member-title,
+.team-title {
+  color: var(--title-text-colot);
+}
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-member-title {
+  font-weight: 500;
+}
+
+/* Футер */
+.footer {
+  color: var(--body-color);
+  background-color: var(--primary-bg-color);
+}
+
+.logo-footer {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  text-decoration: none;
+  color: var(--address-link-color);
+}
