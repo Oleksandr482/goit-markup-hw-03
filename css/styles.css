@@ -376,3 +376,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
+.projects-link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
